@@ -86,6 +86,7 @@ async function main() {
   fs.writeFileSync(`Tornei_${year}-${figbCode}_unificato.pdf`, mergedBytes);
 
   console.log(`Creato: Tornei_${year}-${figbCode}_unificato.pdf`);
+  console.log("ATTENZIONE: ricordati che questo algoritmo non scarica i campionati quindi fallo tu a mano!");
 }
 
 main();
